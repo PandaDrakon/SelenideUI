@@ -8,9 +8,9 @@ import static com.codeborne.selenide.Selenide.*;
 
 
 public class RegistrationTest {
-    String email = "womidep544@lidte.com";
-    int pass = 1234567890;
-    String url = "http://ss1-adserving-hz/";
+    String email ;  
+    int pass ;
+    String url ;
 
     @Test
     public void runTest() throws InterruptedException {
